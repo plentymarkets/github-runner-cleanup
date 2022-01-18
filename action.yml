@@ -3,5 +3,5 @@ description: 'Cleanup self-hosted github runner'
 runs:
   using: 'node16'
   main: 'index.js'
-  pre: 'pre.js'
-  post: 'post.js'
+  pre: 'cleanup.js'
+  post: 'cleanup.js'
