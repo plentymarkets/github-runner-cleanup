@@ -1,7 +1,7 @@
 name: 'Cleanup Runner'
 description: 'Cleanup self-hosted github runner'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
   pre: 'cleanup.js'
   post: 'cleanup.js'
