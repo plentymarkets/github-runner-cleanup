@@ -1,9 +1,9 @@
 ---
 name: pump
-version: 3.0.0
+version: 3.0.4
 type: npm
 summary: pipe streams together and close all of them if one of them closes
-homepage: https://github.com/mafintosh/pump#readme
+homepage:
 license: mit
 licenses:
 - sources: LICENSE
